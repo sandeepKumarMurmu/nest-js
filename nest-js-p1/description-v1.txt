@@ -3,5 +3,3 @@ Nest js is built on the top of node.js frame work, it uses Typescrypt as it prim
 It supports modularity, it keep your code clean and clear and keep all the important logics seprates.
 
 it uses typescript as it primary language to write code, so it helps figure out all the basic error in the early phase only.
-
-testing
