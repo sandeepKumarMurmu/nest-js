@@ -12,6 +12,7 @@ export class UserController {
 
     @Get(":id")
     getUserById(@Param('id') id: any): any {
+        
         const userService = new UserService();
         return userService.getUserById(+id);
     }
