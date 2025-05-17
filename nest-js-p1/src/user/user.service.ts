@@ -6,6 +6,7 @@ export class UserService {
     userData: User[] = [
         { id: 1, name: 'John Doe', age: 30, email: "test@gmail.com", gneder: 'Male' },
         { id: 2, name: 'john two', age: 30, email: "two@gmail.com", gneder: 'Female' },
+        { id: 3, name: 'john 3', age: 30, email: "two@gmail.com", gneder: 'Male' }
     ];
 
     createUser(user: User) {
